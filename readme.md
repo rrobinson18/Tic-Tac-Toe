@@ -10,8 +10,8 @@ The first step is to build the actual game board, so let's get started!
 
 **Building the Game Board (HTML)**
 
-So, we know that a Tic Tac Toe game has 9 possible squares that a player can place either an X or an O in. Think about how you might lay this out and give it a shot on your own before you continue.
-Let's really think about the board in terms of borders. You probably already guessed that we're going to need 9 different elements to represent each move, but you might not think about the best way to lay those out in order to maximize our ability to use CSS efficiently to get the board looking right.
+1. So, we know that a Tic Tac Toe game has 9 possible squares that a player can place either an X or an O in. Think about how you might lay this out and give it a shot on your own before you continue.
+2. Let's really think about the board in terms of borders. You probably already guessed that we're going to need 9 different elements to represent each move, but you might not think about the best way to lay those out in order to maximize our ability to use CSS efficiently to get the board looking right.
 
 1. Create a div with an id of board. This will be the container for our game board.
 2. Add an h1 to the board div, and put the text "Tic Tac Toe".

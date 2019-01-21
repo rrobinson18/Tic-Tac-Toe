@@ -1,32 +1,47 @@
-#board {
-    padding-top: 3em;
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+td {
+    width: 80px;
+    height: 80px;
+    border: solid 4px #222;
     text-align: center;
+    font-size: 20pt;
+    border-radius: 10px;
+    background: #5ee5b6;
+    color: white;
 }
 
-.row > div { 
-    height: 100px;
-    width: 100px;
-    float: left;
+td:hover {
+    background-color: #5ec5f1;
+    cursor: pointer;
+    color: black;
 }
 
-.row {
-    clear: both;
+.tictactoe {
+    text-align: center;
     margin: 0 auto;
-    width: 302px;
+    width: 50%;
+    padding: 10px 50px;
 }
 
-.top {
-    border-bottom: 1px black solid;
+.board {
+    float: left;
+    margin-left: 20px;
+    width: 60%;
 }
 
-.bottom {
-    border-top: 1px black solid;
+.player {
+    float: left;
+    width: 15%;
 }
 
-.left {
-    border-right: 1px black solid;
+.player-points {
+    font-size: 20pt;
+    padding-top: 10px;
 }
 
-.right {
-    border-left: 1px black solid;
+.player-points.selected {
+    border-bottom: solid 3px #5ee5b6;
 }
